@@ -8,6 +8,7 @@ import { LobeBedrockAI } from './bedrock';
 import { LobeCloudflareAI } from './cloudflare';
 import { LobeCohereAI } from './cohere';
 import { LobeDeepSeekAI } from './deepseek';
+import { LobeFalAI } from './fal';
 import { LobeFireworksAI } from './fireworksai';
 import { LobeGiteeAI } from './giteeai';
 import { LobeGithubAI } from './github';
@@ -43,6 +44,7 @@ import { LobeTaichuAI } from './taichu';
 import { LobeTencentCloudAI } from './tencentcloud';
 import { LobeTogetherAI } from './togetherai';
 import { LobeUpstageAI } from './upstage';
+import { LobeV0AI } from './v0';
 import { LobeVLLMAI } from './vllm';
 import { LobeVolcengineAI } from './volcengine';
 import { LobeWenxinAI } from './wenxin';
@@ -62,6 +64,7 @@ export const providerRuntimeMap = {
   cloudflare: LobeCloudflareAI,
   cohere: LobeCohereAI,
   deepseek: LobeDeepSeekAI,
+  fal: LobeFalAI,
   fireworksai: LobeFireworksAI,
   giteeai: LobeGiteeAI,
   github: LobeGithubAI,
@@ -97,6 +100,7 @@ export const providerRuntimeMap = {
   tencentcloud: LobeTencentCloudAI,
   togetherai: LobeTogetherAI,
   upstage: LobeUpstageAI,
+  v0: LobeV0AI,
   vllm: LobeVLLMAI,
   volcengine: LobeVolcengineAI,
   wenxin: LobeWenxinAI,
